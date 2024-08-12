@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IU Concert E-ticketing: Streamlining Access to the June 2024 Kuala Lumpur Show</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <script src="scroll.js" defer></script>
+    <script src="confirmPassword.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">iMe.</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#seatmap">Seatmap</a></li>
+          <li><a href="#login" id="form-open" >Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <h2>IU H.E.R.E.H WORLD TOUR CONCERT <br> IN KUALA LUMPUR</h2>
+       <p id="demo">
+      <script src="countdown.js"></script> 
+    </section>
+
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+<!-- Login From -->
+        <div class="form login_form">
+          <form name=form1 method=post action="login.php">
+            <h2>Login</h2>
+            <div class="input_box">
+              <input name="username" type="text" placeholder="Username" required />
+              <i class="uil uil-user email"></i>
+            </div>
+            <div class="input_box">
+              <input name="password" type="password" placeholder="Password" required />
+              <i class="uil uil-lock password"></i>
+            </div>
+            <input type=submit value="Login" class="button">
+            <div class="login_signup">Don't have an account? <a href="#" id="signup">Sign up</a></div>
+          </form>
+        </div>
+<!-- Signup From -->
+        <div class="form signup_form" id="return">
+          <form name=form method=post action="signup.php" onsubmit="return check();">
+            <h2>Sign up</h2>
+            <div class="input_box">
+              <input name="username" type="text" placeholder="Username" required />
+              <i class="uil uil-user email"></i>
+            </div>
+            <div class="input_box">
+              <input name="password" type="password" placeholder="Create password" required />
+              <i class="uil uil-lock password"></i>
+            </div>
+            <div class="input_box">
+              <input name="confirmation" type="password" placeholder="Confirm password" required />
+              <i class="uil uil-lock password"></i>
+            </div>
+            <input type=submit value="Sign Up" class="button">
+            <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section>
+    <video width="800" height="450" autoplay controls muted >
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    </section>
+    <section id="about" >
+        <h2>ABOUT</h2>
+        <div class="part">
+        <p>Recognised as one of K-pop’s best female soloists and coined as the ‘nation’s little sister’ by South Koreans, a ticket to any IU concert is highly sought after. The songstress will hit the Malaysia Indoor Stadium stage this weekend for a sold-out two-night performance.<p/>
+	<p>IU previously performed in Malaysia in 2019 for her <LOVE, POEM> tour. Thus, this H.E.R. 2024 World Tour concert at the Malaysia Indoor Stadium will be IU’s debut performance at a larger venue.</p>
+	<p>The H.E.R. 2024 World Tour is in support of IU’s latest mini-album ‘The Winning’, released in February 2024. Consisting of songs like ‘Love Wins All‘ and ‘Holssi’, she will perform them live alongside signature hit songs like ‘You and I’ and ‘Blueming’.</p>
+        </div>
+        <div>
+        <h2>IU H.E.R.E.H 2024 World Tour Malaysia concert setlist</h2>
+        </div>
+	<div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <div class="carousel">
+        <img src="bbibbi.jpg" alt="img" draggable="false">
+        <img src="celebrity.jpg" alt="img" draggable="false">
+        <img src="eight.jpg" alt="img" draggable="false">
+        <img src="lilac.jpg" alt="img" draggable="false">
+        <img src="lovepoem.jpg" alt="img" draggable="false">
+        <img src="lovewins.jpg" alt="img" draggable="false">
+        <img src="palette.jpg" alt="img" draggable="false">
+        <img src="strawberry.jpg" alt="img" draggable="false">
+        <img src="winning.jpg" alt="img" draggable="false">
+      </div>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+    </section>
+
+    <section class="details portfolio" id="details">
+   	<h2>DETAILS</h2>
+      <ul class="cards">
+        <li class="card">
+          <img src="iumain.jpg" alt="img">
+	<div class="box">
+       <div class="corner"><p style="font-weight:400; font-size: 12pt;"> ▶ Show Date</p>
+       <p>8 - 9 Jun 2024</p></div>
+       <div class="corner" ><p style="font-weight:400; font-size: 12pt;">🕣 Gate Open</p><p>6:30PM</p></div>
+       <div class="corner" ><p style="font-weight:400; font-size: 12pt;">⚲ Venue</p><p>Axiata Arena Bukit Jalil</p></div>
+       </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="portfolio" id="seatmap">
+      <h2>SEATMAP</h2>
+      <ul class="cards">
+        <li class="card">
+          <img src="seat.jpeg" alt="img">
+          <h3 style="font-size:20pt; letter-spacing: .10em">Ticketing Information</h3>
+          <p>Date: 26th March 2024 </p>
+	  <p>Time: From 12:00PM Onwards</p>
+          <p>Ticket Prices: (VVIP) MYR949 / (VIP) MYR899 / (PS1) MYR799 / (PS2) MYR699 / (PS3) MYR599 / (PS4) MYR499 / (PS5) MYR399</p>
+          <p>All prices exclude MYR4.00 booking fee</p>
+          <p>Each transaction is limited to 4 tickets only</p>
+	<center>
+	<a href="seat.jpeg" target="_blank">
+	<button class="button" role="button">VIEW SEATMAP </button></center>
+        </a></li>
+      </ul>
+    </section>
+    <section>
+	<br><br>
+    </section>
+        <footer>
+      <div>
+        <span>Copyright © 2024 All Rights Reserved</span>
+        <span class="link">
+            <a href="#">Home</a>
+        </span>
+      </div>
+    </footer>
+	<script src="script.js"></script>
+  </body>
+</html>
